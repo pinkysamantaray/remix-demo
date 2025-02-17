@@ -1,4 +1,4 @@
-import { Form, Link, redirect, useLoaderData } from '@remix-run/react';
+import { Form, redirect, useLoaderData } from '@remix-run/react';
 import { User, deleteUser, findUser } from 'users';
 import Footer from '~/components/footer';
 

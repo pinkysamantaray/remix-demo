@@ -1,6 +1,6 @@
 # Welcome to Remix!
 
-## Remix Demo App 
+## Remix Demo App
 
 In this project, we’ll build a scalable web application using Remix. We’ll learn about routing, server-side rendering (SSR), API integration, and managing data effectively with modern best practices.
 
@@ -14,7 +14,7 @@ In this project, we’ll build a scalable web application using Remix. We’ll l
 - File-based routing including dynamic routes like `/profile/:id` and nested layouts for reusable components
 - Working with `loader` functions for fetching data on the server and `action` functions for handling form submissions and mutations.
 - Using Tailwind CSS for responsive design
-    This template comes with Tailwind CSS already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+  This template comes with Tailwind CSS already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
 - Integrating algorithms and data structure concepts into a real-world app
 
 ---
@@ -51,17 +51,18 @@ Make sure you have the following installed:
 ### Installation Steps
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start the development server:
+
    ```bash
    npm run dev
    ```
 
 3. Open the browser and navigate to `http://localhost:5173`.
-
 
 ### Deployment
 
@@ -71,22 +72,18 @@ First, build your app for production:
 npm run build
 ```
 
+- `build/server`
+- `build/client`
+
 Then run the app in production mode:
 
 ```sh
 npm start
 ```
 
+Open the browser and navigate to `http://localhost:3000`.
+
 Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
 
 ---
 
