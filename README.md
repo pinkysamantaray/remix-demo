@@ -97,6 +97,8 @@ This project is open-source under the [MIT License](LICENSE).
 
 - **[Remix Documentation](https://remix.run/docs)**: Official Remix documentation
 - **[Tailwind CSS](https://tailwindcss.com/)**: Styling framework used in this project
-- How Remix work?
+
+- How Remix work? ¯\_(ツ)\_/¯
+
   ![Remix Components Flow](https://github.com/pinkysamantaray/remix-demo/blob/main/public/remix-components-flow.png)
   ![Remix Data Flow](https://github.com/pinkysamantaray/remix-demo/blob/main/public/remix-data-flow.png)

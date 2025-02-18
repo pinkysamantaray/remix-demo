@@ -8,6 +8,7 @@ import {
 import type { LinksFunction } from '@remix-run/node';
 import { HeroUIProvider } from '@heroui/react';
 import './tailwind.css';
+import './styles/app.css';
 
 export const links: LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },

@@ -13,7 +13,7 @@ const About: React.FC = () => {
       <div className="flex  min-h-screen items-center justify-center">
         <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
           <h1 className="font-bold text-center m-3">About Us</h1>
-          <div className="grid text-balance gap-4">
+          <div className="grid text-pretty gap-4">
             <p>
               Welcome to our website. We are dedicated to providing the best
               service possible.
@@ -26,6 +26,7 @@ const About: React.FC = () => {
               Thank you for visiting our site. We hope you find what you are
               looking for.
             </p>
+            <p className="m-4 text-center">¯\_(ツ)\_/¯</p>
           </div>
         </div>
       </div>
